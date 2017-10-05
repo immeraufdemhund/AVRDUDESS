@@ -1,7 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Express 2012 for Windows Desktop
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "avrdudess", "avrdudess\avrdudess.csproj", "{B2875273-CDB9-4CCB-B93B-AF653CDB7D16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvrDude", "AvrDude\AvrDude.csproj", "{4BD7BDC4-70C7-4A96-A420-1AB116161109}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,8 +17,15 @@ Global
 		{B2875273-CDB9-4CCB-B93B-AF653CDB7D16}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2875273-CDB9-4CCB-B93B-AF653CDB7D16}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2875273-CDB9-4CCB-B93B-AF653CDB7D16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BD7BDC4-70C7-4A96-A420-1AB116161109}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BD7BDC4-70C7-4A96-A420-1AB116161109}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BD7BDC4-70C7-4A96-A420-1AB116161109}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BD7BDC4-70C7-4A96-A420-1AB116161109}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {328A938F-E52E-4030-98B6-A39FBC52B260}
 	EndGlobalSection
 EndGlobal
